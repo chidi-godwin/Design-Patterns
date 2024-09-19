@@ -15,5 +15,21 @@ public class Main {
             historyIterator.next();
         }
         System.out.println("Full browser history listed above");
+        System.out.println();
+
+        IterBrowserHistory<String> iterBrowserHistory = new IterBrowserHistory<String>();
+        iterBrowserHistory.push("www.facebook.com");
+        iterBrowserHistory.push("www.google.com");
+        iterBrowserHistory.push("www.tiktok.com");
+        iterBrowserHistory.push("www.netflix.com");
+        iterBrowserHistory.push("www.x.com");
+
+        for (String url: iterBrowserHistory) {
+            System.out.println(url);
+        }
+        System.out.println("Full iterable browser history listed above");
     }
+
+
+
 }
