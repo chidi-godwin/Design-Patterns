@@ -1,4 +1,4 @@
-package com.behavioural.command;
+package com.behavioural.command.customer;
 
 public class CustomerService {
     public void addCustomer() {

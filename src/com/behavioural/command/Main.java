@@ -1,5 +1,6 @@
 package com.behavioural.command;
 
+import com.behavioural.command.customer.*;
 import com.behavioural.command.fx.Button;
 
 public class Main {

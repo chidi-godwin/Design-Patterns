@@ -1,4 +1,4 @@
-package com.behavioural.command;
+package com.behavioural.command.customer;
 
 import com.behavioural.command.fx.Command;
 
