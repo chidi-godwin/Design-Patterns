@@ -1,4 +1,4 @@
-package com.behavioural.command.fx;
+package com.behavioural.command.framework;
 
 public interface Command {
     void execute();

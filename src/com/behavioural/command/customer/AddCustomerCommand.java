@@ -1,6 +1,6 @@
 package com.behavioural.command.customer;
 
-import com.behavioural.command.fx.Command;
+import com.behavioural.command.framework.Command;
 
 public class AddCustomerCommand implements Command {
     private final CustomerService service;
